@@ -115,7 +115,6 @@ workshop is only open to people from a particular institution.
 {% elsif site.carpentry == "lc" %}
 {% include lc/who.html %}
 
-Participation is limited to faculty members from institutions associated with the South Big Data Hub. 
 {% endif %}
 
 {% comment %}
@@ -263,12 +262,12 @@ Edit the text to match who can attend the workshop. For instance:
 - This workshop is open to the public.
 - If you are interested in attending this workshop, contact me@example.com
   for more information
+{% endcomment %}
 
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is open to ....
+    This workshop is open to faculty members from institutions associated with the South Big Data Hub. 
 </p>
-{% endcomment %}
 
 <hr/>
 

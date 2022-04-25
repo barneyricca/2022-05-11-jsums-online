@@ -114,6 +114,8 @@ workshop is only open to people from a particular institution.
 {% include dc/who.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/who.html %}
+
+Participation is limited to faculty members from institutions associated with the South Big Data Hub. 
 {% endif %}
 
 {% comment %}
